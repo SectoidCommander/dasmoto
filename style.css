@@ -4,16 +4,16 @@
 
 * {
     border: 1px solid red;
+    font-family: Helvetica;
+    font-weight: 700;
 }
 
 header {
-    background-image: url("./images/pattern.jpeg")
+    background-image: url("./images/pattern.jpeg");
 }
 
 h1 {
-    font-family: Helvetica;
     font-size: 100px;
-    font-weight: 700;
     text-align: center;
     color: khaki;
     margin: 0;
@@ -21,9 +21,7 @@ h1 {
 }
 
 h2 {
-    font-family: Helvetica;
     font-size: 32;
-    font-weight: 700;
     color: white;
 }
 
@@ -37,4 +35,19 @@ h2 {
 
 #paint {
     background-color: skyblue;
+}
+
+p {
+    color: black;
+    font-weight: 400;
+}
+
+a {
+    color: blue;
+    font-weight: 700;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
