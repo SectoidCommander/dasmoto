@@ -14,7 +14,27 @@ h1 {
     font-family: Helvetica;
     font-size: 100px;
     font-weight: 700;
+    text-align: center;
     color: khaki;
     margin: 0;
     padding: 0;
+}
+
+h2 {
+    font-family: Helvetica;
+    font-size: 32;
+    font-weight: 700;
+    color: white;
+}
+
+#brushes {
+    background-color: mediumspringgreen;
+}
+
+#frames {
+    background-color: lightcoral;
+}
+
+#paint {
+    background-color: skyblue;
 }
